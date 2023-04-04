@@ -31,9 +31,9 @@ spec:
     enabled: true
   #ttlSecondsAfterEmpty: 60 # mutual exclusive with consolitation
   requirements:
-    - key: "karpenter.k8s.aws/instance-category"
-      operator: In
-      values: ["c", "m"]
+    # - key: "karpenter.k8s.aws/instance-category"
+    #   operator: In
+    #   values: ["t", "m"]
     # - key: karpenter.k8s.aws/instance-cpu
     #   operator: Lt
     #   values:
