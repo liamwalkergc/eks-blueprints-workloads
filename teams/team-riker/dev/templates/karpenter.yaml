@@ -34,10 +34,10 @@ spec:
     - key: "karpenter.k8s.aws/instance-category"
       operator: In
       values: ["c", "m"]
-    - key: karpenter.k8s.aws/instance-cpu
-      operator: Lt
-      values:
-        - '33'    
+    # - key: karpenter.k8s.aws/instance-cpu
+    #   operator: Lt
+    #   values:
+    #     - '33'    
     - key: 'kubernetes.io/arch'
       operator: In
       values: ['amd64']
